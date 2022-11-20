@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  background: url('./bg.jpg') no-repeat;
+  background-size: cover;
+}
+.reg-page{
+  width: 350px;
+  top: 10%;
+  bottom: 40%
+  left: 50%;
+  right: 35%;
+  transform: translated(-50%, -50%);
+  position: absolute;
+  color: #fff;
+}
+.reg-page h1{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+.reg-page label{
+  font-size: 20px;
+  margin: 15px 0;
+}
+.reg-page input{
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+}
+.reg-page select{
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+}
